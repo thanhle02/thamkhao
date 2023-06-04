@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background: rgba(255, 255, 255, 0.05);
+    padding-top: 120px;
+ padding-bottom: 136px;
+    justify-content: center;
+
+}
+
+
+.text {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+ 
+ 
+    
+}
+
+.text1 {
+   
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+
+.text2 {
+    padding-top: 40px;
+ 
+    font-weight: 700;
+    font-size: 48px;
+   
+}
+
+.text3 {
+    padding-top: 30px;
+   
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+
+
+
+
+.box-text-image {
+display: flex;
+margin-left: 200px;
+    gap: 30px;
+    padding: 0 80px;
+    margin-top: 80px;
+
+}
+   
+
+
+
+

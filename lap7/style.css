@@ -1,0 +1,130 @@
+.container {
+    width: 1280px;
+    height: 1536px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.box>img {
+    width: 200px;
+    height: 182px;
+
+}
+.box1{
+    width: 200px;
+}
+
+.box2 {
+background-image: url(img/sea\ 1.png);
+background-repeat: no-repeat;
+box-sizing: border-box;
+border: 10px solid #FFFFFF;
+height: 411px;
+background-size: cover;
+background-position: center;
+border: 9px solid #FFFFFF;
+               
+}
+
+
+.box3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+   
+
+}
+
+.box4>img {
+    box-sizing: border-box;
+    width: 239px;
+    height: 242px;
+    border: 5px solid #000000;
+}
+
+.text{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+p {
+    vertical-align: middle;
+
+}
+@media screen and (max-width:1024px){
+    .container{
+        width: 1024px;
+        height: 768px;
+    }
+    h1{
+        text-align: center;
+    }
+    .box{
+        display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 426px;
+   margin-left: 25%;
+
+ 
+    }
+    h2{
+        text-align: center;
+    }
+    .box2{
+        padding:0 10px;
+    }
+    .box3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     
+     margin:0 20%;
+      
+    }
+    .text{
+        width: 500px;
+        text-align: center;
+        height: 50px;
+     }
+}
+@media screen and (max-width:640px){
+    h1{
+        text-align: center;
+
+    }
+    .container{
+        width: 640px;
+     
+        grid-gap: 0px 0px;
+    }
+    .box{
+        margin-left: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+   
+   
+    }
+    h2{
+        text-align: center;
+    }
+     .box3{
+          margin-left: auto;
+          display: grid;
+          grid-template-columns: 1fr;
+          margin: 25%;
+        
+     }
+     .text{
+        width: 500px;
+        text-align: center;
+        height: 50px;
+     }
+}
+

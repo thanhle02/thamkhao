@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<style>
+    .header{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .header a{
+        text-decoration: none;
+        margin: 10px;
+    }
+    .header a:hover{
+        color: red;
+    }
+    .header a img:hover{
+        border: 3px solid red;
+    }
+    .header a.icon{
+        display: none;
+    }
+   @media (max-width:640px) {
+    .header{
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+    .header a.icon{
+        display: block;
+        position: absolute;
+        right: 0;
+
+    }
+    .header a{
+        display: block;
+    }
+    #nav{
+        display: none;
+    }
+    
+   }
+   .back{
+    background-image: url(img/Bg1\ 1.png);
+    width: 100%;height: 400px;
+    background-size: cover;
+   }
+   .back:hover{
+    border: 5px solid red ;
+   }
+   
+</style>
+<body>
+    <div class="header">
+        <a href="javascript:void(0);" class="icon" onclick="myfuction()">
+            <i class="fa-solid fa-bars"></i>
+            <a href="h.html"> <img src="img/anhnenu.png" alt=""></a>
+            <div id="nav">
+                <a href="h.html">TRANG CHU</a>
+                <a href="h.html">TRANG CHU</a>
+                <a href="h.html">TRANG CHU</a>
+                <a href="h.html">TRANG CHU</a>
+                
+            </div>
+    </div>
+    <div class="back"></div>
+    <script>
+        function myfiction(){
+            var x = document.getElementById("nav");
+            if(x.style.display==="block"){
+                x.style.display="none"
+            }else{
+                x.style.display="block"
+            }
+        }
+    </script>
+</body>
+</html>

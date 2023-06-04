@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<style>
+    .header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header a{
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 30px;
+       margin: 20px;
+
+    }
+    .header a.icon{
+        display: none;
+    }
+
+    @media (max-width:1024px) {
+        .header{
+            display: block;
+            overflow: hidden;
+            background-color: #333;
+            position: relative;
+        }
+        .header #nav{
+            display: none;
+        }
+        .header a{
+            display: block;
+            text-decoration: none;
+        }
+        .header a.icon{
+            background: black;
+            display: block;
+            position: absolute;
+            top:0;
+            right:0;
+          color: white;  
+
+        }
+    }
+</style>
+
+<body>
+    <div class="header">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+        
+        <i class="fa-solid fa-bars"></i>
+        <a href="#">LOGO</a>
+        <div id="nav">
+            <a href=""> trang chủ</a>
+            <a href=""> hổ trợ</a>
+            <a href=""> hỏi đáp</a>
+            <a href=""> về chúng tôi</a>
+        </div>
+
+    </div>
+    <script>
+        function myFuction() {
+            var x = document.getElementById("nav");
+            if (x.style.display === " block") {
+                x.style.display = "none"
+            } else {
+                x.style.display = "block"
+            }
+
+        }
+    </script>
+</body>
+
+</html>

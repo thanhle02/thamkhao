@@ -1,0 +1,43 @@
+.temp4{
+ background: rgba(245, 247, 249, 0.04);
+ justify-content: center;
+display: grid;
+grid-template-columns: auto auto;
+padding-top: 120px;
+
+}
+.box-title4{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.text1{
+ font-weight: 600;
+    font-size: 20px;
+   
+}
+.text2{
+font-weight: 700;
+font-size: 48px;
+
+}
+.text3{
+font-weight: 400;
+font-size: 16px;
+
+}
+.box-text-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+padding: 0 80px ;
+}
+.box-image- img{
+    max-width: 100% ;
+}
+.box-text{
+    padding: 13px;
+}
+.box-text p{
+    
+}

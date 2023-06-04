@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+    height: 810px;
+    background: #999999;
+
+
+}
+
+.content {
+    width: 960px;
+    height: 320px;
+
+}
+
+.left {
+    width: 470px;
+
+
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.right {
+    width: 470px;
+
+
+
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.img {
+    height: 250px;
+    width: 100px;
+    border: 5px solid white;
+}
+
+h1 {
+    font-size: 30px;
+    height: 85px;
+    padding-top: 44px;
+    text-align: center;
+    color: #010002;
+    font-weight: 750;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3 {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #010002;
+    font-weight: 700;
+    padding-top: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h4 {
+    padding: 7px;
+    font-weight: 850;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.box {
+    width: 960px;
+    height: 80px;
+}
+
+.box1 {
+    width: 470px;
+
+    height: 70px;
+
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.box2 {
+    width: 470px;
+
+    height: 70px;
+
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.thanh {
+    margin-left: 10px;
+    width: 960px;
+    height: 353px;
+}
+
+a {
+    text-decoration: none;
+    color: #236d9a;
+
+}
+
+h2 {
+    padding-top: 50px;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+@media (max-width:1440px) {}
+
+@media (max-width:1366px) {}
+
+@media (max-width:1280px) {}
+
+@media (max-width:1024px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:624px) {}
+
+@media (max-width:480px) {
+    .content {
+        display: block;
+        width: 100%;
+    }
+
+    .left {
+        width: 100%;
+
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+        display: block;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+
+
+
+
+
+}
+
+@media (max-width:390px) {}
+
+@media (max-width:372px) {}
+
+@media (max-width:360px) {}
+
+@media (max-width:320px) {
+    .content {
+        width: 100%;
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+        display: block;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+}
+
+/* // chia hàng display: grid; */
+/* grid- teamplale-columns: repeat(số  cột, như một cột ) */
+/* khoảng cách cột */
+/* grid-gap:.. */
+/* dùng min-width */
+/* ưu tiên mobie */
